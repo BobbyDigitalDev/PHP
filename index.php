@@ -28,6 +28,13 @@
   $uppercase = strtoupper($myname);
   print $uppercase;
   ?>
+
+
+<!-- strtolower function takes an variabl -->
+<?php
+  $lowercase = strtolower($uppercase);
+  print $lowercase;
+  ?>
   
 </body>
 </html>
